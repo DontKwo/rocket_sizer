@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+ENV/
+
+# Rust / Tauri build artifacts
+src-tauri/target/
+**/target/
+
+# Node / Web dependencies and builds
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+.env
+.env.local
+*.local
